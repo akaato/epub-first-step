@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package version="2.0" xmlns="http://www.idpf.org/2007/opf"
+	 unique-identifier="BookId">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+	    xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:title>ePub 2.0 ことはじめ</dc:title>
+    <dc:creator opf:role="aut">絳アト</dc:creator>
+    <dc:language>ja</dc:language>
+    <dc:identifier id="BookId">urn:uuid:akaato.com20110418</dc:identifier>
+ </metadata>
+ <manifest>
+   <item id="ncx" href="toc.ncx" media-type="text/xml" />
+   <item id="hello" href="hello.xhtml" media-type="application/xhtml+xml" />
+ </manifest>
+ <spine toc="ncx">
+   <itemref idref="hello" />
+ </spine>
+</package>
