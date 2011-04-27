@@ -6,3 +6,4 @@ h2. 目次
 
 * "ePub 2.0 ことはじめ (1) シンプルな ePub を作る":http://akaato.blogspot.com/2011/04/epub-20-1-epub.html
 * "ePub 2.0 ことはじめ (2) iBooks で確認":http://akaato.blogspot.com/2011/04/epub-20-2-ibooks.html
+* "ePub 2.0 ことはじめ (3) HTML 整形":http://akaato.blogspot.com/2011/04/epub-20-3-html.html
