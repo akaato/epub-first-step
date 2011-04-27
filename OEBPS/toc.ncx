@@ -10,11 +10,11 @@
     <text>ePub 2.0 ことはじめ</text>
   </docTitle>
   <navMap>
-    <navPoint id="hello" playOrder="1">
+    <navPoint id="chap1" playOrder="1">
       <navLabel>
-        <text>サンプル</text>
+        <text>第一章 ことはじめ</text>
       </navLabel>
-      <content src="hello.xhtml"/>
+      <content src="chap1.xhtml"/>
     </navPoint>
   </navMap>
 </ncx>
