@@ -6,6 +6,113 @@
   <title>第一章 ことはじめ</title>
 </head>
 <body>
-  <p>こんにちは</p>
+  <h1>利用可能な要素</h1>
+  <p>ePub 2.0 で利用可能な要素を紹介します。</p>
+  <h2 id="structure">構造要素</h2>
+  <p>html, head, title, body 要素が使えます。HTML の基本ですね。</p>
+  <h2>テキスト</h2>
+  <h3>ヘッダー</h3>
+  <p>h1, h2, h3, h4, h5, h6 のヘッダー要素が使えます。このテキストでは、h1, h2, h3 を使っています。</p>
+  <h3>段落</h3>
+  <p>p 要素を使って段落を作ります。</p>
+  <p>段落内で改行が必要な場合は br 要素が使えます。</p>
+<p>例:</p>
+<pre>
+  段落の中で&lt;br/&gt;
+  改行
+</pre>
+<p>結果:</p>
+<p>段落の中で<br/>
+改行
+</p>
+  <h3>引用</h3>
+  <p>blockquote 要素を使って、引用ができます。</p>
+  <blockquote>
+    <p>三つの指輪は、空の下なるエルフの王に、<br/>
+七つの指輪は、岩の館のドワーフの君に、<br/>
+九つは、死すべき運命の人の子に、<br/>
+一つは、暗き御座の冥王のため、<br/>
+影横たわるモルドールの国に。</p>
+<p>一つの指輪は、すべてを統べ、<br/>
+一つの指輪は、すべてを見つけ、<br/>
+一つの指輪は、すべてを捕らえて<br/>
+くらやみのなかにつなぎとめる。<br/>
+影横たわるモルドールの国に。 </p>
+  </blockquote>
+  <p>q 要素を使って、インライン引用もできます: <q>一つの指輪は、すべてを統べ</q> </p>
+  <p>cite 要素を使って、引用元を表現することもします: <cite>指輪物語</cite>より引用</p>
+  <h3>そのまま</h3>
+  <p>pre 要素を使って、そのまま表示することが可能です。</p>
+<pre>
+#define MAX 100
+int main(void)
+{
+  int sum = 0;
+  for (int i=0; i&lt;MAX; i++)
+  {
+     sum += i;
+  }
+  return 0;
+}
+</pre>
+  <h3>強調</h3>
+  <p>より強い強調に <strong>strong</strong> 要素を、普通の強調に <em>em</em> 要素が利用可能です。</p>
+  <h3>その他</h3>
+  <p>特に意味のないブロック要素に div、インライン要素に span 要素が使えます。</p>
+  <h3>意味のある単語</h3>
+  <ul>
+   <li>dfn 要素: <dfn>定義</dfn>を表す</li>
+   <li>code 要素: <code>int i=0</code> の様にプログラム・コードを表す</li>
+   <li>kbd 要素: <kbd>C-x C-s</kbd> の様にキーボード入力を表す</li>
+   <li>samp 要素: <samp>samp</samp> 要素の様にサンプルを表す</li>
+   <li>var 要素: <var>PATH</var> の様に変数を表す</li>
+  </ul>
+  <h3>省略文字</h3>
+  <p>abbr 要素を使って省略文字を表現できます: <abbr title="World Hospital Orginization">WHO</abbr></p>
+  <p>acronym 要素も利用可能です: <acronym title="Hyper Text Markup Language">HTML</acronym></p>
+  <h2>ハイパーリンク</h2>
+  <p>a 要素も利用可能です。「<a href="#structure">構造要素</a>」へジャンプしてみましょう。</p>
+  <h2>リスト</h2>
+  <p>番号なしリストの ul と、番号ありリストの ol、そして定義リストの dl が利用可能です。</p>
+  <ul>
+   <li>Windows</li>
+   <li>Mac</li>
+   <li>Linux</li>
+  </ul>
+  <ol>
+   <li>Windows</li>
+   <li>Mac</li>
+   <li>Linux</li>
+  </ol>
+  <dl>
+   <dt>Windows</dt>
+   <dd>Microsoft 社の OS</dd>
+   <dt>Mac</dt>
+   <dd>Apple 社の OS</dd>
+   <dt>Linux</dt>
+   <dd>Linuxs 氏による Unix OS のクローン</dd>
+  </dl>
+  <h2>修正</h2>
+  <p>del 要素を使って<del>削除項目</del>を表せます</p>
+  <p>ins 要素を使って<ins>追記項目</ins>を表せます</p>
+  <h2>テーブル</h2>
+  <p>いっちょ、テーブルを作ってみましょう。</p>
+  <table>
+    <caption>力の指輪 〜 指輪物語</caption>
+    <thead>
+      <tr><th>種族</th><th>指輪の数</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>エルフ</td><td>三つ</td></tr>
+      <tr><td>ドワーフ</td><td>七つ</td></tr>
+      <tr><td>人間</td><td>九つ</td></tr>
+    </tbody>
+  </table>
+  <h2>説明省略</h2>
+  <p>object, img, bdo, area, map, meta, style, link, base の説明は省略します。</p>
+  <p>b, i, tt, big, small 要素の利用は控えて CSS を使いましょう。</p>
+  <p>上付き<sup>1</sup>や下付き<sub>2</sub> は必要に応じて使いましょう。</p>
+  <hr/>
+  <p>hr 要素はよく分からんです。</p>
 </body>
 </html>
