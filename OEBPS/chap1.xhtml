@@ -6,11 +6,11 @@
   <title>第一章 ことはじめ</title>
 </head>
 <body>
-  <h1>利用可能な要素</h1>
+  <h1 id="elem">利用可能な要素</h1>
   <p>ePub 2.0 で利用可能な要素を紹介します。</p>
   <h2 id="structure">構造要素</h2>
   <p>html, head, title, body 要素が使えます。HTML の基本ですね。</p>
-  <h2>テキスト</h2>
+  <h2 id="text">テキスト</h2>
   <h3>ヘッダー</h3>
   <p>h1, h2, h3, h4, h5, h6 のヘッダー要素が使えます。このテキストでは、h1, h2, h3 を使っています。</p>
   <h3>段落</h3>
@@ -70,9 +70,9 @@ int main(void)
   <h3>省略文字</h3>
   <p>abbr 要素を使って省略文字を表現できます: <abbr title="World Hospital Orginization">WHO</abbr></p>
   <p>acronym 要素も利用可能です: <acronym title="Hyper Text Markup Language">HTML</acronym></p>
-  <h2>ハイパーリンク</h2>
+  <h2 id="link">ハイパーリンク</h2>
   <p>a 要素も利用可能です。「<a href="#structure">構造要素</a>」へジャンプしてみましょう。</p>
-  <h2>リスト</h2>
+  <h2 id="list">リスト</h2>
   <p>番号なしリストの ul と、番号ありリストの ol、そして定義リストの dl が利用可能です。</p>
   <ul>
    <li>Windows</li>
@@ -92,10 +92,10 @@ int main(void)
    <dt>Linux</dt>
    <dd>Linuxs 氏による Unix OS のクローン</dd>
   </dl>
-  <h2>修正</h2>
+  <h2 id="fix">修正</h2>
   <p>del 要素を使って<del>削除項目</del>を表せます</p>
   <p>ins 要素を使って<ins>追記項目</ins>を表せます</p>
-  <h2>テーブル</h2>
+  <h2 id="table">テーブル</h2>
   <p>いっちょ、テーブルを作ってみましょう。</p>
   <table>
     <caption>力の指輪 〜 指輪物語</caption>
