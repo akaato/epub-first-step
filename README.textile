@@ -8,3 +8,4 @@ h2. 目次
 * "ePub 2.0 ことはじめ (2) iBooks で確認":http://akaato.blogspot.com/2011/04/epub-20-2-ibooks.html
 * "ePub 2.0 ことはじめ (3) HTML 整形":http://akaato.blogspot.com/2011/04/epub-20-3-html.html
 * "ePub 2.0 ことはじめ (4) Makefile を作る":http://akaato.blogspot.com/2011/04/epub-20-4-makefile.html
+* "ePub 2.0 ことはじめ (5) 目次の作成":http://akaato.blogspot.com/2011/06/epub-20-5.html
