@@ -51,6 +51,11 @@
 	  <navLabel><text>1.1.6  テーブル</text></navLabel>
 	  <content src="chap1.xhtml#table"/>
 	</navPoint>
+
+	<navPoint id="img" playOrder="8">
+	  <navLabel><text>1.1.7  画像</text></navLabel>
+	  <content src="chap1.xhtml#img"/>
+	</navPoint>
       </navPoint>
     </navPoint>
   </navMap>
