@@ -10,6 +10,7 @@
  </metadata>
  <manifest>
    <item id="ncx" href="toc.ncx" media-type="text/xml" />
+   <item id="style" href="style.css" media-type="text/css" />
    <item id="chap1" href="chap1.xhtml" media-type="application/xhtml+xml" />
    <item id="sample-jpg" href="sample.jpg" media-type="image/jpeg" />
    <item id="sample-png" href="sample.png" media-type="image/png" />
