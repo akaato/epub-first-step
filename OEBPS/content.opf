@@ -7,10 +7,13 @@
     <dc:creator opf:role="aut">絳アト</dc:creator>
     <dc:language>ja</dc:language>
     <dc:identifier id="BookId">urn:uuid:akaato.com20110418</dc:identifier>
+    <meta name="cover" content="cover-image"/>
  </metadata>
  <manifest>
    <item id="ncx" href="toc.ncx" media-type="text/xml" />
    <item id="style" href="style.css" media-type="text/css" />
+   <item id="cover" href="cover.xhtml" media-type="application/xhtml+xml" />
+   <item id="cover-image" href="cover.png" media-type="image/png" />
    <item id="chap1" href="chap1.xhtml" media-type="application/xhtml+xml" />
    <item id="sample-jpg" href="sample.jpg" media-type="image/jpeg" />
    <item id="sample-png" href="sample.png" media-type="image/png" />
@@ -18,6 +21,10 @@
    <item id="sample-svg" href="sample.svg" media-type="image/svg+xml" />
  </manifest>
  <spine toc="ncx">
+   <itemref idref="cover" linear="no"/>
    <itemref idref="chap1" />
  </spine>
+ <guide>
+   <reference href="cover.xhtml" type="cover" title="Cover" />
+ </guide>
 </package>
