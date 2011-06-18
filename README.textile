@@ -11,3 +11,4 @@ h2. 目次
 * "ePub 2.0 ことはじめ (5) 目次の作成":http://akaato.blogspot.com/2011/06/epub-20-5.html
 * "ePub 2.0 ことはじめ (6) 画像の挿入":http://akaato.blogspot.com/2011/06/epub-20-6.html
 * "ePub 2.0 ことはじめ (7) スタイルの追加":http://akaato.blogspot.com/2011/06/epub-20-7.html
+* "ePub 2.0 ことはじめ (8) カバーを付ける":http://akaato.blogspot.com/2011/06/epub-20-8.html
